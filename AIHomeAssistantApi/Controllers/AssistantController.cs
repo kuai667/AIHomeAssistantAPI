@@ -9,7 +9,7 @@ namespace AIHomeAssistantApi.Controllers
         [HttpGet]
         public IActionResult MainAction()
         {
-            return Ok("The API is working");
+            return Ok("The API is working"); 
         }
     }
 }
